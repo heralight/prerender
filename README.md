@@ -196,6 +196,15 @@ With cache: Overall Elapsed:	00:00:00.0360119
 
 This will show console.log's from the phantomjs page in your local console. Great for debugging.
 
+### mongodbCache
+
+Caches pages in a MongoDB database. Available at [prerender-mongodb-cache](https://github.com/lammertw/prerender-mongodb-cache) by [@lammertw](https://github.com/lammertw)
+
+
+### memjsCache
+
+Caches pages in a memjs(memcache) service. Available at [prerender-memjs-cache](https://github.com/lammertw/prerender-memjs-cache) by [@lammertw](https://github.com/lammertw)
+
 ### Css Prerender Only
 
 If you need to change render only for Prerender, use this plugin.
@@ -210,7 +219,7 @@ Add this css code to your html.
 For example, If you need to display a div only with Prerender:
 <div class="prerender-only"> Only display with prerender </div>
 
-
+ 
 ## License
 
 The MIT License (MIT)
