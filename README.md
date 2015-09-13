@@ -212,9 +212,9 @@ In your Html you can use css class named prerender-only.
 
 Add this css code to your html.
 
-.prerender-only {
-  display:none;
-}
+    .prerender-only {
+        display:none;
+    }
 
 For example, If you need to display a div only with Prerender:
 <div class="prerender-only"> Only display with prerender </div>
